@@ -1,0 +1,56 @@
+nginxproxy:
+  restart: always
+  image: jwilder/nginx-proxy
+  volumes:
+    - /var/run/docker.sock:/tmp/docker.sock:ro
+  ports:
+    - "80:80"
+
+chmscontrol:
+  restart: always
+  build: ./
+  expose:
+    - "8001"
+  links:
+    - chmscontroldb:chmscontroldb
+  env_file: chms_control.env
+  command: /usr/local/bin/gunicorn chms_control.wsgi:application -w 2 -b :8001
+
+chmscontroldb:
+  restart: always
+  image: aidanlister/postgres-hstore:latest
+  volumes_from:
+    - chmscontroldbdata
+  ports:
+    - "5433:5432"
+
+chmscontroldbdata:
+  restart: no
+  image: aidanlister/postgres-hstore:latest
+  volumes:
+    - /var/lib/postgresql
+  command: true
+
+chmscontrolcelery:
+  restart: always
+  build: ./
+  links:
+    - chmscontroldb:chmscontroldb
+    - chmscontrolredis:chmscontrolredis
+  env_file: chms_control.env
+  command: /usr/local/bin/python manage.py celery worker --loglevel=info
+
+chmscontrolcelerybeat:
+  restart: always
+  build: ./
+  links:
+    - chmscontroldb:chmscontroldb
+    - chmscontrolredis:chmscontrolredis
+  env_file: chms_control.env
+  command: /usr/local/bin/python manage.py celery beat --loglevel=info
+
+chmscontrolredis:
+  restart: always
+  image: redis:latest
+  ports:
+    - "6379:6379"
