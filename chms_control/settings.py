@@ -53,8 +53,10 @@ INSTALLED_APPS = (
     'rest_framework',
     'rest_framework.authtoken',
     'django_filters',
+    'bootstrapform',
     # us
     'web',
+    'controlinterface',
 
 )
 
