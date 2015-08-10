@@ -10,3 +10,5 @@ dj-static
 celery
 django-celery
 redis
+go_http==0.2.6
+django-bootstrap-form
