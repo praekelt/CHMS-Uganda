@@ -1,0 +1,2082 @@
+[
+{
+    "pk": 1,
+    "model": "controlinterface.widgetdata",
+    "fields": {
+        "data_type": "private",
+        "title": "Unique Clinic Users",
+        "created_at": "2014-10-24T11:12:22Z",
+        "updated_at": "2014-11-27T19:40:26.076Z",
+        "source": "vumi",
+        "key": "stores.ndoh_prd_live.prd.clinic.sum.unique_users.last"
+    }
+},
+{
+    "pk": 2,
+    "model": "controlinterface.widgetdata",
+    "fields": {
+        "data_type": "private",
+        "title": "Unique Personal Users",
+        "created_at": "2014-11-27T19:40:44.242Z",
+        "updated_at": "2014-11-27T19:40:44.242Z",
+        "source": "vumi",
+        "key": "stores.ndoh_prd_live.prd.personal.sum.unique_users.last"
+    }
+},
+{
+    "pk": 3,
+    "model": "controlinterface.widgetdata",
+    "fields": {
+        "data_type": "private",
+        "title": "Unique CHW Users",
+        "created_at": "2014-11-27T19:41:00.296Z",
+        "updated_at": "2014-11-27T19:41:00.296Z",
+        "source": "vumi",
+        "key": "stores.ndoh_prd_live.prd.chw.sum.unique_users.last"
+    }
+},
+{
+    "pk": 4,
+    "model": "controlinterface.widgetdata",
+    "fields": {
+        "data_type": "summary",
+        "title": "Unique Users",
+        "created_at": "2015-02-04T11:50:51Z",
+        "updated_at": "2015-02-04T12:14:51.307Z",
+        "source": "vumi",
+        "key": "stores.ndoh_prd_live.prd.sum.unique_users.last"
+    }
+},
+{
+    "pk": 5,
+    "model": "controlinterface.widgetdata",
+    "fields": {
+        "data_type": "summary",
+        "title": "Clinic Average Sessions to Register",
+        "created_at": "2015-02-04T15:57:05Z",
+        "updated_at": "2015-02-04T15:58:04.304Z",
+        "source": "vumi",
+        "key": "stores.ndoh_prd_live.prd.clinic.avg.sessions_to_register.avg"
+    }
+},
+{
+    "pk": 6,
+    "model": "controlinterface.widgetdata",
+    "fields": {
+        "data_type": "summary",
+        "title": "CHW Average Sessions to Register",
+        "created_at": "2015-02-04T15:57:56Z",
+        "updated_at": "2015-02-04T16:08:31.442Z",
+        "source": "vumi",
+        "key": "stores.ndoh_prd_live.prd.chw.avg.sessions_to_register.avg"
+    }
+},
+{
+    "pk": 7,
+    "model": "controlinterface.widgetdata",
+    "fields": {
+        "data_type": "summary",
+        "title": "Public Average Sessions to Register",
+        "created_at": "2015-02-04T15:58:46.227Z",
+        "updated_at": "2015-02-04T15:58:46.227Z",
+        "source": "vumi",
+        "key": "stores.ndoh_prd_live.prd.personal.avg.sessions_to_register.avg"
+    }
+},
+{
+    "pk": 8,
+    "model": "controlinterface.widgetdata",
+    "fields": {
+        "data_type": "summary",
+        "title": "Completed Service Ratings",
+        "created_at": "2015-02-04T19:25:12Z",
+        "updated_at": "2015-02-04T19:25:34.216Z",
+        "source": "vumi",
+        "key": "stores.ndoh_prd_live.prd.servicerating.sum.servicerating_success.last"
+    }
+},
+{
+    "pk": 9,
+    "model": "controlinterface.widgetdata",
+    "fields": {
+        "data_type": "summary",
+        "title": "Number of SMS to Helpdesk",
+        "created_at": "2015-02-05T06:08:34Z",
+        "updated_at": "2015-02-05T06:15:30.912Z",
+        "source": "vumi",
+        "key": "stores.ndoh_prd_live.prd.smsinbound.sum.ticket_logged_to_control_success.last"
+    }
+},
+{
+    "pk": 10,
+    "model": "controlinterface.widgetdata",
+    "fields": {
+        "data_type": "summary",
+        "title": "Total Subscriptions to Public",
+        "created_at": "2015-02-05T06:21:47Z",
+        "updated_at": "2015-02-05T06:30:14.672Z",
+        "source": "vumi",
+        "key": "stores.ndoh_prd_live.prd.personal.sum.subscription_to_protocol_success.last"
+    }
+},
+{
+    "pk": 11,
+    "model": "controlinterface.widgetdata",
+    "fields": {
+        "data_type": "summary",
+        "title": "Total Subscriptions to CHW",
+        "created_at": "2015-02-05T06:22:19Z",
+        "updated_at": "2015-02-05T06:30:08.645Z",
+        "source": "vumi",
+        "key": "stores.ndoh_prd_live.prd.chw.sum.subscription_to_protocol_success.last"
+    }
+},
+{
+    "pk": 12,
+    "model": "controlinterface.widgetdata",
+    "fields": {
+        "data_type": "summary",
+        "title": "Total Subscriptions to Clinic",
+        "created_at": "2015-02-05T06:22:37Z",
+        "updated_at": "2015-02-05T06:30:03.136Z",
+        "source": "vumi",
+        "key": "stores.ndoh_prd_live.prd.clinic.sum.subscription_to_protocol_success.last"
+    }
+},
+{
+    "pk": 13,
+    "model": "controlinterface.widgetdata",
+    "fields": {
+        "data_type": "summary",
+        "title": "Number of FAQ Searches",
+        "created_at": "2015-02-05T06:37:19.725Z",
+        "updated_at": "2015-02-05T06:37:19.725Z",
+        "source": "vumi",
+        "key": "stores.ndoh_prd_live.prd.faq_view_question.last"
+    }
+},
+{
+    "pk": 14,
+    "model": "controlinterface.widgetdata",
+    "fields": {
+        "data_type": "summary",
+        "title": "USSD Opt-outs",
+        "created_at": "2015-02-05T06:45:27.021Z",
+        "updated_at": "2015-02-05T06:45:27.021Z",
+        "source": "vumi",
+        "key": "stores.ndoh_prd_live.prd.optout.sum.json_to_jembi_success.last"
+    }
+},
+{
+    "pk": 15,
+    "model": "controlinterface.widgetdata",
+    "fields": {
+        "data_type": "summary",
+        "title": "% Completed Clinic Registrations",
+        "created_at": "2015-02-05T07:00:01Z",
+        "updated_at": "2015-02-05T07:05:20.010Z",
+        "source": "vumi",
+        "key": "stores.ndoh_prd_live.prd.clinic.percent_complete_registrations.last"
+    }
+},
+{
+    "pk": 16,
+    "model": "controlinterface.widgetdata",
+    "fields": {
+        "data_type": "summary",
+        "title": "% Completed CHW Registrations",
+        "created_at": "2015-02-05T07:05:48.764Z",
+        "updated_at": "2015-02-05T07:05:48.764Z",
+        "source": "vumi",
+        "key": "stores.ndoh_prd_live.prd.chw.percent_complete_registrations.last"
+    }
+},
+{
+    "pk": 17,
+    "model": "controlinterface.widgetdata",
+    "fields": {
+        "data_type": "summary",
+        "title": "% Completed Public Registrations",
+        "created_at": "2015-02-05T07:06:14.861Z",
+        "updated_at": "2015-02-05T07:06:14.861Z",
+        "source": "vumi",
+        "key": "stores.ndoh_prd_live.prd.personal.percent_complete_registrations.last"
+    }
+},
+{
+    "pk": 18,
+    "model": "controlinterface.widgetdata",
+    "fields": {
+        "data_type": "summary",
+        "title": "Total Subscriptions",
+        "created_at": "2015-03-17T11:47:00.985Z",
+        "updated_at": "2015-03-17T11:47:00.985Z",
+        "source": "vumi",
+        "key": "stores.ndoh_prd_live.prd.sum.subscriptions.last"
+    }
+},
+{
+    "pk": 19,
+    "model": "controlinterface.widgetdata",
+    "fields": {
+        "data_type": "summary",
+        "title": "Baby trigger via SMS",
+        "created_at": "2015-03-17T12:05:28.504Z",
+        "updated_at": "2015-03-17T12:05:28.504Z",
+        "source": "vumi",
+        "key": "stores.ndoh_prd_live.prd.sum.baby_sms.last"
+    }
+},
+{
+    "pk": 20,
+    "model": "controlinterface.widgetdata",
+    "fields": {
+        "data_type": "summary",
+        "title": "Baby automatic switch",
+        "created_at": "2015-03-17T12:06:55Z",
+        "updated_at": "2015-03-18T06:42:02.085Z",
+        "source": "vumi",
+        "key": "stores.ndoh_prd_live.prd.sum.baby1_auto.sum"
+    }
+},
+{
+    "pk": 21,
+    "model": "controlinterface.widgetdata",
+    "fields": {
+        "data_type": "summary",
+        "title": "Subscribers per language - English (Active)",
+        "created_at": "2015-03-17T12:18:14Z",
+        "updated_at": "2015-03-18T13:52:06.194Z",
+        "source": "vumi",
+        "key": "stores.ndoh_prd_live.prd.subscriptions.en.active.last"
+    }
+},
+{
+    "pk": 22,
+    "model": "controlinterface.widgetdata",
+    "fields": {
+        "data_type": "summary",
+        "title": "Subscribers per language - Afrikaans (Active)",
+        "created_at": "2015-03-17T12:18:39Z",
+        "updated_at": "2015-03-18T13:52:38.252Z",
+        "source": "vumi",
+        "key": "stores.ndoh_prd_live.prd.subscriptions.af.active.last"
+    }
+},
+{
+    "pk": 23,
+    "model": "controlinterface.widgetdata",
+    "fields": {
+        "data_type": "summary",
+        "title": "Subscribers per language - Zulu (Active)",
+        "created_at": "2015-03-17T12:19:12Z",
+        "updated_at": "2015-03-18T13:52:53.250Z",
+        "source": "vumi",
+        "key": "stores.ndoh_prd_live.prd.subscriptions.zu.active.last"
+    }
+},
+{
+    "pk": 24,
+    "model": "controlinterface.widgetdata",
+    "fields": {
+        "data_type": "summary",
+        "title": "Subscribers per language - Xhosa (Active)",
+        "created_at": "2015-03-17T12:19:47Z",
+        "updated_at": "2015-03-18T13:53:06.664Z",
+        "source": "vumi",
+        "key": "stores.ndoh_prd_live.prd.subscriptions.xh.active.last"
+    }
+},
+{
+    "pk": 25,
+    "model": "controlinterface.widgetdata",
+    "fields": {
+        "data_type": "summary",
+        "title": "Subscribers per language - Sotho (Active)",
+        "created_at": "2015-03-17T12:20:33Z",
+        "updated_at": "2015-03-18T13:53:41.899Z",
+        "source": "vumi",
+        "key": "stores.ndoh_prd_live.prd.subscriptions.st.active.last"
+    }
+},
+{
+    "pk": 26,
+    "model": "controlinterface.widgetdata",
+    "fields": {
+        "data_type": "summary",
+        "title": "Subscribers per language - Tswana (Active)",
+        "created_at": "2015-03-17T12:21:02Z",
+        "updated_at": "2015-03-18T13:53:58.718Z",
+        "source": "vumi",
+        "key": "stores.ndoh_prd_live.prd.subscriptions.tn.active.last"
+    }
+},
+{
+    "pk": 27,
+    "model": "controlinterface.widgetdata",
+    "fields": {
+        "data_type": "summary",
+        "title": "% Opt Outs (total)",
+        "created_at": "2015-03-17T12:55:56.740Z",
+        "updated_at": "2015-03-17T12:55:56.740Z",
+        "source": "vumi",
+        "key": "stores.ndoh_prd_live.prd.percent.optout.all.last"
+    }
+},
+{
+    "pk": 28,
+    "model": "controlinterface.widgetdata",
+    "fields": {
+        "data_type": "summary",
+        "title": "% Opt Outs (Non Loss)",
+        "created_at": "2015-03-17T12:58:32.044Z",
+        "updated_at": "2015-03-17T12:58:32.044Z",
+        "source": "vumi",
+        "key": "stores.ndoh_prd_live.prd.percent.optout.non_loss.last"
+    }
+},
+{
+    "pk": 29,
+    "model": "controlinterface.widgetdata",
+    "fields": {
+        "data_type": "summary",
+        "title": "% Loss optouts choosing to get messages",
+        "created_at": "2015-03-17T13:06:23.618Z",
+        "updated_at": "2015-03-17T13:06:23.618Z",
+        "source": "vumi",
+        "key": "stores.ndoh_prd_live.prd.percent.optout.loss.msgs.last"
+    }
+},
+{
+    "pk": 30,
+    "model": "controlinterface.widgetdata",
+    "fields": {
+        "data_type": "summary",
+        "title": "Opt Out Reason - Miscarriage",
+        "created_at": "2015-03-17T13:12:52.962Z",
+        "updated_at": "2015-03-17T13:12:52.962Z",
+        "source": "vumi",
+        "key": "stores.ndoh_prd_live.prd.sum.optout_cause.miscarriage.last"
+    }
+},
+{
+    "pk": 31,
+    "model": "controlinterface.widgetdata",
+    "fields": {
+        "data_type": "summary",
+        "title": "Opt Out Reason - Stillbirth",
+        "created_at": "2015-03-17T13:13:15.250Z",
+        "updated_at": "2015-03-17T13:13:15.251Z",
+        "source": "vumi",
+        "key": "stores.ndoh_prd_live.prd.sum.optout_cause.stillbirth.last"
+    }
+},
+{
+    "pk": 32,
+    "model": "controlinterface.widgetdata",
+    "fields": {
+        "data_type": "summary",
+        "title": "Opt Out Reason - Babyloss",
+        "created_at": "2015-03-17T13:14:03.163Z",
+        "updated_at": "2015-03-17T13:14:03.163Z",
+        "source": "vumi",
+        "key": "stores.ndoh_prd_live.prd.sum.optout_cause.babyloss.last"
+    }
+},
+{
+    "pk": 33,
+    "model": "controlinterface.widgetdata",
+    "fields": {
+        "data_type": "summary",
+        "title": "Opt Out Reason - Not Useful",
+        "created_at": "2015-03-17T13:14:50.959Z",
+        "updated_at": "2015-03-17T13:14:50.959Z",
+        "source": "vumi",
+        "key": "stores.ndoh_prd_live.prd.sum.optout_cause.not_useful.last"
+    }
+},
+{
+    "pk": 34,
+    "model": "controlinterface.widgetdata",
+    "fields": {
+        "data_type": "summary",
+        "title": "Opt Out Reason - Other",
+        "created_at": "2015-03-17T13:15:14.923Z",
+        "updated_at": "2015-03-17T13:15:14.923Z",
+        "source": "vumi",
+        "key": "stores.ndoh_prd_live.prd.sum.optout_cause.other.last"
+    }
+},
+{
+    "pk": 35,
+    "model": "controlinterface.widgetdata",
+    "fields": {
+        "data_type": "summary",
+        "title": "Opt Out Reason - Unknown",
+        "created_at": "2015-03-17T13:15:34.115Z",
+        "updated_at": "2015-03-17T13:15:34.115Z",
+        "source": "vumi",
+        "key": "stores.ndoh_prd_live.prd.sum.optout_cause.unknown.last"
+    }
+},
+{
+    "pk": 36,
+    "model": "controlinterface.widgetdata",
+    "fields": {
+        "data_type": "summary",
+        "title": "Opt Out per Subscription Set - Clinic",
+        "created_at": "2015-03-17T13:36:41.586Z",
+        "updated_at": "2015-03-17T13:36:41.587Z",
+        "source": "vumi",
+        "key": "stores.ndoh_prd_live.prd.sum.optout_on.clinic.last"
+    }
+},
+{
+    "pk": 37,
+    "model": "controlinterface.widgetdata",
+    "fields": {
+        "data_type": "summary",
+        "title": "Opt Out per Subscription Set - CHW",
+        "created_at": "2015-03-17T13:37:32.601Z",
+        "updated_at": "2015-03-17T13:37:32.601Z",
+        "source": "vumi",
+        "key": "stores.ndoh_prd_live.prd.sum.optout_on.chw.last"
+    }
+},
+{
+    "pk": 38,
+    "model": "controlinterface.widgetdata",
+    "fields": {
+        "data_type": "summary",
+        "title": "Opt Out per Subscription Set - Personal",
+        "created_at": "2015-03-17T13:38:10.647Z",
+        "updated_at": "2015-03-17T13:38:10.647Z",
+        "source": "vumi",
+        "key": "stores.ndoh_prd_live.prd.sum.optout_on.personal.last"
+    }
+},
+{
+    "pk": 39,
+    "model": "controlinterface.widgetdata",
+    "fields": {
+        "data_type": "summary",
+        "title": "Conversion rate - CHW to Clinic",
+        "created_at": "2015-03-17T13:40:24Z",
+        "updated_at": "2015-03-17T14:51:50.674Z",
+        "source": "vumi",
+        "key": "stores.ndoh_prd_live.prd.chw.conversion_rate.last"
+    }
+},
+{
+    "pk": 40,
+    "model": "controlinterface.widgetdata",
+    "fields": {
+        "data_type": "summary",
+        "title": "Conversion rate - Public to Clinic",
+        "created_at": "2015-03-17T13:40:56.354Z",
+        "updated_at": "2015-03-17T13:40:56.354Z",
+        "source": "vumi",
+        "key": "stores.ndoh_prd_live.prd.personal.conversion_rate.last"
+    }
+},
+{
+    "pk": 41,
+    "model": "controlinterface.widgetdata",
+    "fields": {
+        "data_type": "summary",
+        "title": "Servicerating - Total Users",
+        "created_at": "2015-03-17T13:50:36Z",
+        "updated_at": "2015-03-17T14:57:02.131Z",
+        "source": "vumi",
+        "key": "stores.ndoh_prd_live.prd.servicerating.sum.unique_users.last"
+    }
+},
+{
+    "pk": 43,
+    "model": "controlinterface.widgetdata",
+    "fields": {
+        "data_type": "summary",
+        "title": "Servicerating - % Completed Ratings",
+        "created_at": "2015-03-17T14:14:04.511Z",
+        "updated_at": "2015-03-17T14:14:04.511Z",
+        "source": "vumi",
+        "key": "stores.ndoh_prd_live.prd.servicerating.percent_complete_serviceratings.last"
+    }
+},
+{
+    "pk": 44,
+    "model": "controlinterface.widgetdata",
+    "fields": {
+        "data_type": "summary",
+        "title": "Servicerating - Avg sessions to complete rating",
+        "created_at": "2015-03-17T14:23:34.630Z",
+        "updated_at": "2015-03-17T14:23:34.630Z",
+        "source": "vumi",
+        "key": "stores.ndoh_prd_live.prd.servicerating.avg.sessions_rate_service.avg"
+    }
+},
+{
+    "pk": 45,
+    "model": "controlinterface.widgetdata",
+    "fields": {
+        "data_type": "summary",
+        "title": "Servicerating - Question 1 completions",
+        "created_at": "2015-03-17T14:27:20.454Z",
+        "updated_at": "2015-03-17T14:27:20.454Z",
+        "source": "vumi",
+        "key": "stores.ndoh_prd_live.prd.servicerating.sum.question_1_friendliness.exits.last"
+    }
+},
+{
+    "pk": 46,
+    "model": "controlinterface.widgetdata",
+    "fields": {
+        "data_type": "summary",
+        "title": "Servicerating - Question 2 completions",
+        "created_at": "2015-03-17T14:28:05Z",
+        "updated_at": "2015-03-17T14:38:13.255Z",
+        "source": "vumi",
+        "key": "stores.ndoh_prd_live.prd.servicerating.sum.question_2_waiting_times_feel.exits.last"
+    }
+},
+{
+    "pk": 47,
+    "model": "controlinterface.widgetdata",
+    "fields": {
+        "data_type": "summary",
+        "title": "Servicerating - Question 3 completions",
+        "created_at": "2015-03-17T14:28:39Z",
+        "updated_at": "2015-03-17T14:38:28.342Z",
+        "source": "vumi",
+        "key": "stores.ndoh_prd_live.prd.servicerating.sum.question_3_waiting_times_length.exits.last"
+    }
+},
+{
+    "pk": 48,
+    "model": "controlinterface.widgetdata",
+    "fields": {
+        "data_type": "summary",
+        "title": "Servicerating - Question 4 completions",
+        "created_at": "2015-03-17T14:29:20Z",
+        "updated_at": "2015-03-17T14:38:31.612Z",
+        "source": "vumi",
+        "key": "stores.ndoh_prd_live.prd.servicerating.sum.question_4_cleanliness.exits.last"
+    }
+},
+{
+    "pk": 49,
+    "model": "controlinterface.widgetdata",
+    "fields": {
+        "data_type": "summary",
+        "title": "Servicerating - Question 5 completions",
+        "created_at": "2015-03-17T14:29:47Z",
+        "updated_at": "2015-03-17T14:38:34.754Z",
+        "source": "vumi",
+        "key": "stores.ndoh_prd_live.prd.servicerating.sum.question_5_privacy.exits.last"
+    }
+},
+{
+    "pk": 50,
+    "model": "controlinterface.widgetdata",
+    "fields": {
+        "data_type": "summary",
+        "title": "Subscribers per message set - baby loss (Active)",
+        "created_at": "2015-03-18T08:52:41Z",
+        "updated_at": "2015-03-18T14:15:22.529Z",
+        "source": "vumi",
+        "key": "stores.ndoh_prd_live.prd.subscriptions.babyloss.active.last"
+    }
+},
+{
+    "pk": 51,
+    "model": "controlinterface.widgetdata",
+    "fields": {
+        "data_type": "summary",
+        "title": "Subscribers per message set - miscarriage (active)",
+        "created_at": "2015-03-18T08:53:12Z",
+        "updated_at": "2015-03-18T14:15:26.032Z",
+        "source": "vumi",
+        "key": "stores.ndoh_prd_live.prd.subscriptions.miscarriage.active.last"
+    }
+},
+{
+    "pk": 52,
+    "model": "controlinterface.widgetdata",
+    "fields": {
+        "data_type": "summary",
+        "title": "Subscribers per message set - stillbirth (active)",
+        "created_at": "2015-03-18T08:53:41Z",
+        "updated_at": "2015-03-18T14:15:29.497Z",
+        "source": "vumi",
+        "key": "stores.ndoh_prd_live.prd.subscriptions.stillbirth.active.last"
+    }
+},
+{
+    "pk": 53,
+    "model": "controlinterface.widgetdata",
+    "fields": {
+        "data_type": "summary",
+        "title": "Subscribers per message set - chw (active)",
+        "created_at": "2015-03-18T08:54:10Z",
+        "updated_at": "2015-03-18T14:15:31.807Z",
+        "source": "vumi",
+        "key": "stores.ndoh_prd_live.prd.subscriptions.chw.active.last"
+    }
+},
+{
+    "pk": 54,
+    "model": "controlinterface.widgetdata",
+    "fields": {
+        "data_type": "summary",
+        "title": "Subscribers per message set - accelerated (active)",
+        "created_at": "2015-03-18T08:54:38Z",
+        "updated_at": "2015-03-18T14:15:35.025Z",
+        "source": "vumi",
+        "key": "stores.ndoh_prd_live.prd.subscriptions.accelerated.active.last"
+    }
+},
+{
+    "pk": 55,
+    "model": "controlinterface.widgetdata",
+    "fields": {
+        "data_type": "summary",
+        "title": "Subscribers per message set - subscription (active)",
+        "created_at": "2015-03-18T08:55:09Z",
+        "updated_at": "2015-03-18T14:15:37.535Z",
+        "source": "vumi",
+        "key": "stores.ndoh_prd_live.prd.subscriptions.subscription.active.last"
+    }
+},
+{
+    "pk": 56,
+    "model": "controlinterface.widgetdata",
+    "fields": {
+        "data_type": "summary",
+        "title": "Subscribers per message set - later (active)",
+        "created_at": "2015-03-18T08:55:33Z",
+        "updated_at": "2015-03-18T14:15:40.228Z",
+        "source": "vumi",
+        "key": "stores.ndoh_prd_live.prd.subscriptions.later.active.last"
+    }
+},
+{
+    "pk": 57,
+    "model": "controlinterface.widgetdata",
+    "fields": {
+        "data_type": "summary",
+        "title": "Subscribers per message set - baby2 (active)",
+        "created_at": "2015-03-18T08:56:34Z",
+        "updated_at": "2015-03-18T14:15:42.360Z",
+        "source": "vumi",
+        "key": "stores.ndoh_prd_live.prd.subscriptions.baby2.active.last"
+    }
+},
+{
+    "pk": 58,
+    "model": "controlinterface.widgetdata",
+    "fields": {
+        "data_type": "summary",
+        "title": "Subscribers per message set - baby1 (active)",
+        "created_at": "2015-03-18T08:56:51Z",
+        "updated_at": "2015-03-18T14:15:44.530Z",
+        "source": "vumi",
+        "key": "stores.ndoh_prd_live.prd.subscriptions.baby1.active.last"
+    }
+},
+{
+    "pk": 59,
+    "model": "controlinterface.widgetdata",
+    "fields": {
+        "data_type": "summary",
+        "title": "Subscribers per message set - standard (active)",
+        "created_at": "2015-03-18T08:57:10Z",
+        "updated_at": "2015-03-18T14:15:46.656Z",
+        "source": "vumi",
+        "key": "stores.ndoh_prd_live.prd.subscriptions.standard.active.last"
+    }
+},
+{
+    "pk": 60,
+    "model": "controlinterface.widgetdata",
+    "fields": {
+        "data_type": "summary",
+        "title": "Number of FAQ SMS Sent",
+        "created_at": "2015-03-18T10:41:35.322Z",
+        "updated_at": "2015-03-18T10:41:35.322Z",
+        "source": "vumi",
+        "key": "stores.ndoh_prd_live.prd.faq_sent_via_sms.last"
+    }
+},
+{
+    "pk": 61,
+    "model": "controlinterface.widgetdata",
+    "fields": {
+        "data_type": "summary",
+        "title": "FAQ Topic Searches - Baby",
+        "created_at": "2015-03-18T11:02:28.199Z",
+        "updated_at": "2015-03-18T11:02:28.199Z",
+        "source": "vumi",
+        "key": "stores.ndoh_prd_live.prd.faq_view_topic.903.last"
+    }
+},
+{
+    "pk": 62,
+    "model": "controlinterface.widgetdata",
+    "fields": {
+        "data_type": "summary",
+        "title": "FAQ Topic Searches - HIV",
+        "created_at": "2015-03-18T11:02:51.856Z",
+        "updated_at": "2015-03-18T11:02:51.856Z",
+        "source": "vumi",
+        "key": "stores.ndoh_prd_live.prd.faq_view_topic.904.last"
+    }
+},
+{
+    "pk": 63,
+    "model": "controlinterface.widgetdata",
+    "fields": {
+        "data_type": "summary",
+        "title": "FAQ Topic Searches - Labour",
+        "created_at": "2015-03-18T11:03:23.799Z",
+        "updated_at": "2015-03-18T11:03:23.799Z",
+        "source": "vumi",
+        "key": "stores.ndoh_prd_live.prd.faq_view_topic.902.last"
+    }
+},
+{
+    "pk": 64,
+    "model": "controlinterface.widgetdata",
+    "fields": {
+        "data_type": "summary",
+        "title": "FAQ Topic Searches - Other Diseases",
+        "created_at": "2015-03-18T11:03:54.267Z",
+        "updated_at": "2015-03-18T11:03:54.267Z",
+        "source": "vumi",
+        "key": "stores.ndoh_prd_live.prd.faq_view_topic.905.last"
+    }
+},
+{
+    "pk": 65,
+    "model": "controlinterface.widgetdata",
+    "fields": {
+        "data_type": "summary",
+        "title": "FAQ Topic Searches - Pregnancy",
+        "created_at": "2015-03-18T11:04:25.436Z",
+        "updated_at": "2015-03-18T11:04:25.436Z",
+        "source": "vumi",
+        "key": "stores.ndoh_prd_live.prd.faq_view_topic.881.last"
+    }
+},
+{
+    "pk": 66,
+    "model": "controlinterface.widgetdata",
+    "fields": {
+        "data_type": "summary",
+        "title": "FAQ Topic Searches - Support",
+        "created_at": "2015-03-18T11:04:55.972Z",
+        "updated_at": "2015-03-18T11:04:55.972Z",
+        "source": "vumi",
+        "key": "stores.ndoh_prd_live.prd.faq_view_topic.906.last"
+    }
+},
+{
+    "pk": 67,
+    "model": "controlinterface.widgetdata",
+    "fields": {
+        "data_type": "summary",
+        "title": "Subscriptions (Active)",
+        "created_at": "2015-03-18T12:18:25.734Z",
+        "updated_at": "2015-03-18T12:18:25.734Z",
+        "source": "vumi",
+        "key": "stores.ndoh_prd_live.prd.subscriptions.active.last"
+    }
+},
+{
+    "pk": 68,
+    "model": "controlinterface.widgetdata",
+    "fields": {
+        "data_type": "summary",
+        "title": "Subscriptions (All Time)",
+        "created_at": "2015-03-18T12:18:46.574Z",
+        "updated_at": "2015-03-18T12:18:46.574Z",
+        "source": "vumi",
+        "key": "stores.ndoh_prd_live.prd.subscriptions.alltime.last"
+    }
+},
+{
+    "pk": 69,
+    "model": "controlinterface.widgetdata",
+    "fields": {
+        "data_type": "summary",
+        "title": "Drop offs - Clinic - states_start",
+        "created_at": "2015-03-18T12:24:46.642Z",
+        "updated_at": "2015-03-18T12:24:46.642Z",
+        "source": "vumi",
+        "key": "stores.ndoh_prd_live.prd.clinic.states_start.no_incomplete.last"
+    }
+},
+{
+    "pk": 70,
+    "model": "controlinterface.widgetdata",
+    "fields": {
+        "data_type": "summary",
+        "title": "Drop offs - Clinic - states_clinic_code",
+        "created_at": "2015-03-18T12:25:38.771Z",
+        "updated_at": "2015-03-18T12:25:38.771Z",
+        "source": "vumi",
+        "key": "stores.ndoh_prd_live.prd.clinic.states_clinic_code.no_incomplete.last"
+    }
+},
+{
+    "pk": 71,
+    "model": "controlinterface.widgetdata",
+    "fields": {
+        "data_type": "summary",
+        "title": "Drop offs - Clinic - states_mobile_no",
+        "created_at": "2015-03-18T12:26:43.285Z",
+        "updated_at": "2015-03-18T12:26:43.285Z",
+        "source": "vumi",
+        "key": "stores.ndoh_prd_live.prd.clinic.states_mobile_no.no_incomplete.last"
+    }
+},
+{
+    "pk": 72,
+    "model": "controlinterface.widgetdata",
+    "fields": {
+        "data_type": "summary",
+        "title": "Drop offs - Clinic - states_due_date_month",
+        "created_at": "2015-03-18T12:28:27.500Z",
+        "updated_at": "2015-03-18T12:28:27.500Z",
+        "source": "vumi",
+        "key": "stores.ndoh_prd_live.prd.clinic.states_due_date_month.no_incomplete.last"
+    }
+},
+{
+    "pk": 73,
+    "model": "controlinterface.widgetdata",
+    "fields": {
+        "data_type": "summary",
+        "title": "Drop offs - Clinic - states_id_type",
+        "created_at": "2015-03-18T12:29:07.546Z",
+        "updated_at": "2015-03-18T12:29:07.546Z",
+        "source": "vumi",
+        "key": "stores.ndoh_prd_live.prd.clinic.states_id_type.no_incomplete.last"
+    }
+},
+{
+    "pk": 74,
+    "model": "controlinterface.widgetdata",
+    "fields": {
+        "data_type": "summary",
+        "title": "Drop offs - Clinic - states_sa_id",
+        "created_at": "2015-03-18T12:29:59.453Z",
+        "updated_at": "2015-03-18T12:29:59.453Z",
+        "source": "vumi",
+        "key": "stores.ndoh_prd_live.prd.clinic.states_sa_id.no_incomplete.last"
+    }
+},
+{
+    "pk": 75,
+    "model": "controlinterface.widgetdata",
+    "fields": {
+        "data_type": "summary",
+        "title": "Drop offs - Clinic - states_passport_origin",
+        "created_at": "2015-03-18T12:30:42.957Z",
+        "updated_at": "2015-03-18T12:30:42.957Z",
+        "source": "vumi",
+        "key": "stores.ndoh_prd_live.prd.clinic.states_passport_origin.no_incomplete.last"
+    }
+},
+{
+    "pk": 76,
+    "model": "controlinterface.widgetdata",
+    "fields": {
+        "data_type": "summary",
+        "title": "Drop offs - Clinic - states_passport_no",
+        "created_at": "2015-03-18T12:31:33.670Z",
+        "updated_at": "2015-03-18T12:31:33.670Z",
+        "source": "vumi",
+        "key": "stores.ndoh_prd_live.prd.clinic.states_passport_no.no_incomplete.last"
+    }
+},
+{
+    "pk": 77,
+    "model": "controlinterface.widgetdata",
+    "fields": {
+        "data_type": "summary",
+        "title": "Drop offs - Clinic - states_birth_year",
+        "created_at": "2015-03-18T12:32:07.567Z",
+        "updated_at": "2015-03-18T12:32:07.567Z",
+        "source": "vumi",
+        "key": "stores.ndoh_prd_live.prd.clinic.states_birth_year.no_incomplete.last"
+    }
+},
+{
+    "pk": 78,
+    "model": "controlinterface.widgetdata",
+    "fields": {
+        "data_type": "summary",
+        "title": "Drop offs - Clinic - states_birth_month",
+        "created_at": "2015-03-18T12:32:41.181Z",
+        "updated_at": "2015-03-18T12:32:41.181Z",
+        "source": "vumi",
+        "key": "stores.ndoh_prd_live.prd.clinic.states_birth_month.no_incomplete.last"
+    }
+},
+{
+    "pk": 79,
+    "model": "controlinterface.widgetdata",
+    "fields": {
+        "data_type": "summary",
+        "title": "Drop offs - Clinic - states_birth_day",
+        "created_at": "2015-03-18T12:33:18.109Z",
+        "updated_at": "2015-03-18T12:33:18.109Z",
+        "source": "vumi",
+        "key": "stores.ndoh_prd_live.prd.clinic.states_birth_day.no_incomplete.last"
+    }
+},
+{
+    "pk": 80,
+    "model": "controlinterface.widgetdata",
+    "fields": {
+        "data_type": "summary",
+        "title": "Drop offs - Clinic - states_language",
+        "created_at": "2015-03-18T12:33:45.035Z",
+        "updated_at": "2015-03-18T12:33:45.035Z",
+        "source": "vumi",
+        "key": "stores.ndoh_prd_live.prd.clinic.states_language.no_incomplete.last"
+    }
+},
+{
+    "pk": 81,
+    "model": "controlinterface.widgetdata",
+    "fields": {
+        "data_type": "summary",
+        "title": "Number of Subscription SMSs Sent",
+        "created_at": "2015-03-18T13:30:17.102Z",
+        "updated_at": "2015-03-18T13:30:17.102Z",
+        "source": "vumi",
+        "key": "stores.ndoh_prd_live.prd.sum.sms.subscription.outbound.sum"
+    }
+},
+{
+    "pk": 82,
+    "model": "controlinterface.widgetdata",
+    "fields": {
+        "data_type": "summary",
+        "title": "Subscribers per language - English (All Time)",
+        "created_at": "2015-03-18T14:00:24.930Z",
+        "updated_at": "2015-03-18T14:00:24.930Z",
+        "source": "vumi",
+        "key": "stores.ndoh_prd_live.prd.subscriptions.en.alltime.last"
+    }
+},
+{
+    "pk": 83,
+    "model": "controlinterface.widgetdata",
+    "fields": {
+        "data_type": "summary",
+        "title": "Subscribers per language - Afrikaans (All Time)",
+        "created_at": "2015-03-18T14:00:53.430Z",
+        "updated_at": "2015-03-18T14:00:53.430Z",
+        "source": "vumi",
+        "key": "stores.ndoh_prd_live.prd.subscriptions.af.alltime.last"
+    }
+},
+{
+    "pk": 84,
+    "model": "controlinterface.widgetdata",
+    "fields": {
+        "data_type": "summary",
+        "title": "Subscribers per language - Zulu (All Time)",
+        "created_at": "2015-03-18T14:01:17.077Z",
+        "updated_at": "2015-03-18T14:01:17.077Z",
+        "source": "vumi",
+        "key": "stores.ndoh_prd_live.prd.subscriptions.zu.alltime.last"
+    }
+},
+{
+    "pk": 85,
+    "model": "controlinterface.widgetdata",
+    "fields": {
+        "data_type": "summary",
+        "title": "Subscribers per language - Xhosa (All Time)",
+        "created_at": "2015-03-18T14:01:43.285Z",
+        "updated_at": "2015-03-18T14:01:43.285Z",
+        "source": "vumi",
+        "key": "stores.ndoh_prd_live.prd.subscriptions.xh.alltime.last"
+    }
+},
+{
+    "pk": 86,
+    "model": "controlinterface.widgetdata",
+    "fields": {
+        "data_type": "summary",
+        "title": "Subscribers per language - Sotho (All Time)",
+        "created_at": "2015-03-18T14:02:17.038Z",
+        "updated_at": "2015-03-18T14:02:17.038Z",
+        "source": "vumi",
+        "key": "stores.ndoh_prd_live.prd.subscriptions.st.alltime.last"
+    }
+},
+{
+    "pk": 87,
+    "model": "controlinterface.widgetdata",
+    "fields": {
+        "data_type": "summary",
+        "title": "Subscribers per language - Tswana (All Time)",
+        "created_at": "2015-03-18T14:02:44.375Z",
+        "updated_at": "2015-03-18T14:02:44.375Z",
+        "source": "vumi",
+        "key": "stores.ndoh_prd_live.prd.subscriptions.tn.alltime.last"
+    }
+},
+{
+    "pk": 88,
+    "model": "controlinterface.widgetdata",
+    "fields": {
+        "data_type": "summary",
+        "title": "Subscribers per message set - baby loss (all time)",
+        "created_at": "2015-03-18T14:11:02.623Z",
+        "updated_at": "2015-03-18T14:11:02.623Z",
+        "source": "vumi",
+        "key": "stores.ndoh_prd_live.prd.subscriptions.babyloss.alltime.last"
+    }
+},
+{
+    "pk": 89,
+    "model": "controlinterface.widgetdata",
+    "fields": {
+        "data_type": "summary",
+        "title": "Subscribers per message set - miscarriage (all time)",
+        "created_at": "2015-03-18T14:11:05.647Z",
+        "updated_at": "2015-03-18T14:11:05.647Z",
+        "source": "vumi",
+        "key": "stores.ndoh_prd_live.prd.subscriptions.miscarriage.alltime.last"
+    }
+},
+{
+    "pk": 90,
+    "model": "controlinterface.widgetdata",
+    "fields": {
+        "data_type": "summary",
+        "title": "Subscribers per message set - stillbirth (all time)",
+        "created_at": "2015-03-18T14:11:09.695Z",
+        "updated_at": "2015-03-18T14:11:09.695Z",
+        "source": "vumi",
+        "key": "stores.ndoh_prd_live.prd.subscriptions.stillbirth.alltime.last"
+    }
+},
+{
+    "pk": 91,
+    "model": "controlinterface.widgetdata",
+    "fields": {
+        "data_type": "summary",
+        "title": "Subscribers per message set - chw (all time)",
+        "created_at": "2015-03-18T14:11:13.707Z",
+        "updated_at": "2015-03-18T14:11:13.707Z",
+        "source": "vumi",
+        "key": "stores.ndoh_prd_live.prd.subscriptions.chw.alltime.last"
+    }
+},
+{
+    "pk": 92,
+    "model": "controlinterface.widgetdata",
+    "fields": {
+        "data_type": "summary",
+        "title": "Subscribers per message set - accelerated (all time)",
+        "created_at": "2015-03-18T14:11:16.552Z",
+        "updated_at": "2015-03-18T14:11:16.552Z",
+        "source": "vumi",
+        "key": "stores.ndoh_prd_live.prd.subscriptions.accelerated.alltime.last"
+    }
+},
+{
+    "pk": 93,
+    "model": "controlinterface.widgetdata",
+    "fields": {
+        "data_type": "summary",
+        "title": "Subscribers per message set - subscription (all time)",
+        "created_at": "2015-03-18T14:11:19.352Z",
+        "updated_at": "2015-03-18T14:11:19.352Z",
+        "source": "vumi",
+        "key": "stores.ndoh_prd_live.prd.subscriptions.subscription.alltime.last"
+    }
+},
+{
+    "pk": 94,
+    "model": "controlinterface.widgetdata",
+    "fields": {
+        "data_type": "summary",
+        "title": "Subscribers per message set - later (all time)",
+        "created_at": "2015-03-18T14:11:22.972Z",
+        "updated_at": "2015-03-18T14:11:22.972Z",
+        "source": "vumi",
+        "key": "stores.ndoh_prd_live.prd.subscriptions.later.alltime.last"
+    }
+},
+{
+    "pk": 95,
+    "model": "controlinterface.widgetdata",
+    "fields": {
+        "data_type": "summary",
+        "title": "Subscribers per message set - baby2 (all time)",
+        "created_at": "2015-03-18T14:11:25.686Z",
+        "updated_at": "2015-03-18T14:11:25.686Z",
+        "source": "vumi",
+        "key": "stores.ndoh_prd_live.prd.subscriptions.baby2.alltime.last"
+    }
+},
+{
+    "pk": 96,
+    "model": "controlinterface.widgetdata",
+    "fields": {
+        "data_type": "summary",
+        "title": "Subscribers per message set - baby1 (alltime)",
+        "created_at": "2015-03-18T14:11:28.679Z",
+        "updated_at": "2015-03-18T14:11:28.679Z",
+        "source": "vumi",
+        "key": "stores.ndoh_prd_live.prd.subscriptions.baby1.alltime.last"
+    }
+},
+{
+    "pk": 97,
+    "model": "controlinterface.widgetdata",
+    "fields": {
+        "data_type": "summary",
+        "title": "Subscribers per message set - standard (all time)",
+        "created_at": "2015-03-18T14:14:39.966Z",
+        "updated_at": "2015-03-18T14:14:39.966Z",
+        "source": "vumi",
+        "key": "stores.ndoh_prd_live.prd.subscriptions.standard.alltime.last"
+    }
+},
+{
+    "pk": 1,
+    "model": "controlinterface.widget",
+    "fields": {
+        "interval": "1d",
+        "title": "Unique Clinic Users",
+        "created_at": "2014-10-24T11:12:33Z",
+        "nulls": "omit",
+        "updated_at": "2015-03-18T13:14:32.427Z",
+        "data": [
+            1
+        ],
+        "data_from": "-30d",
+        "type_of": "last"
+    }
+},
+{
+    "pk": 2,
+    "model": "controlinterface.widget",
+    "fields": {
+        "interval": "1d",
+        "title": "Unique Personal Users",
+        "created_at": "2014-11-27T19:41:59Z",
+        "nulls": "omit",
+        "updated_at": "2015-03-18T13:14:44.035Z",
+        "data": [
+            2
+        ],
+        "data_from": "-30d",
+        "type_of": "last"
+    }
+},
+{
+    "pk": 3,
+    "model": "controlinterface.widget",
+    "fields": {
+        "interval": "1d",
+        "title": "Unique CHW Users",
+        "created_at": "2014-11-27T19:42:19Z",
+        "nulls": "omit",
+        "updated_at": "2015-03-18T13:14:55.010Z",
+        "data": [
+            3
+        ],
+        "data_from": "-30d",
+        "type_of": "last"
+    }
+},
+{
+    "pk": 4,
+    "model": "controlinterface.widget",
+    "fields": {
+        "interval": "1d",
+        "title": "Unique Users",
+        "created_at": "2014-11-27T19:42:44Z",
+        "nulls": "omit",
+        "updated_at": "2015-03-18T12:29:59.204Z",
+        "data": [
+            1,
+            2,
+            3
+        ],
+        "data_from": "-30d",
+        "type_of": "lines"
+    }
+},
+{
+    "pk": 5,
+    "model": "controlinterface.widget",
+    "fields": {
+        "interval": "1d",
+        "title": "Total Unique Users",
+        "created_at": "2015-02-04T11:52:22Z",
+        "nulls": "omit",
+        "updated_at": "2015-03-18T12:30:23.969Z",
+        "data": [
+            4
+        ],
+        "data_from": "-30d",
+        "type_of": "last"
+    }
+},
+{
+    "pk": 6,
+    "model": "controlinterface.widget",
+    "fields": {
+        "interval": "1d",
+        "title": "Users Per Line",
+        "created_at": "2015-02-04T11:57:21Z",
+        "nulls": "omit",
+        "updated_at": "2015-03-18T13:17:22.907Z",
+        "data": [
+            1,
+            2,
+            3
+        ],
+        "data_from": "-30d",
+        "type_of": "pie"
+    }
+},
+{
+    "pk": 7,
+    "model": "controlinterface.widget",
+    "fields": {
+        "interval": "1d",
+        "title": "Average Sessions To Register (Month)",
+        "created_at": "2015-02-04T16:03:30Z",
+        "nulls": "omit",
+        "updated_at": "2015-02-04T16:03:30Z",
+        "data": [
+            5,
+            6,
+            7
+        ],
+        "data_from": "-30d",
+        "type_of": "lines"
+    }
+},
+{
+    "pk": 8,
+    "model": "controlinterface.widget",
+    "fields": {
+        "interval": "1d",
+        "title": "Clinic Average Sessions To Register (Month)",
+        "created_at": "2015-02-04T16:11:34Z",
+        "nulls": "omit",
+        "updated_at": "2015-02-04T18:59:25.005Z",
+        "data": [
+            5
+        ],
+        "data_from": "-30d",
+        "type_of": "bars"
+    }
+},
+{
+    "pk": 9,
+    "model": "controlinterface.widget",
+    "fields": {
+        "interval": "1d",
+        "title": "Total Completed Service Ratings",
+        "created_at": "2015-02-04T19:26:19Z",
+        "nulls": "omit",
+        "updated_at": "2015-03-18T13:18:47.409Z",
+        "data": [
+            8
+        ],
+        "data_from": "-30d",
+        "type_of": "last"
+    }
+},
+{
+    "pk": 10,
+    "model": "controlinterface.widget",
+    "fields": {
+        "interval": "1d",
+        "title": "Total SMSs to Helpdesk",
+        "created_at": "2015-02-05T06:09:22Z",
+        "nulls": "omit",
+        "updated_at": "2015-03-18T13:12:05.068Z",
+        "data": [
+            9
+        ],
+        "data_from": "-30d",
+        "type_of": "last"
+    }
+},
+{
+    "pk": 11,
+    "model": "controlinterface.widget",
+    "fields": {
+        "interval": "1d",
+        "title": "Subscriptions per source",
+        "created_at": "2015-02-05T06:24:36Z",
+        "nulls": "omit",
+        "updated_at": "2015-03-18T13:00:42.352Z",
+        "data": [
+            10,
+            11,
+            12
+        ],
+        "data_from": "-30d",
+        "type_of": "lines"
+    }
+},
+{
+    "pk": 12,
+    "model": "controlinterface.widget",
+    "fields": {
+        "interval": "30d",
+        "title": "Number of FAQ Searches (Year)",
+        "created_at": "2015-02-05T06:38:19Z",
+        "nulls": "omit",
+        "updated_at": "2015-03-18T15:50:53.878Z",
+        "data": [
+            13,
+            60
+        ],
+        "data_from": "-360d",
+        "type_of": "last"
+    }
+},
+{
+    "pk": 13,
+    "model": "controlinterface.widget",
+    "fields": {
+        "interval": "1d",
+        "title": "USSD Opt-outs",
+        "created_at": "2015-02-05T06:46:03.795Z",
+        "nulls": "omit",
+        "updated_at": "2015-02-05T06:46:03.795Z",
+        "data": [
+            14
+        ],
+        "data_from": "-30d",
+        "type_of": "last"
+    }
+},
+{
+    "pk": 14,
+    "model": "controlinterface.widget",
+    "fields": {
+        "interval": "1d",
+        "title": "% Completed Clinic Registrations",
+        "created_at": "2015-02-05T07:00:56Z",
+        "nulls": "omit",
+        "updated_at": "2015-03-18T13:18:36.548Z",
+        "data": [
+            15
+        ],
+        "data_from": "-30d",
+        "type_of": "last"
+    }
+},
+{
+    "pk": 15,
+    "model": "controlinterface.widget",
+    "fields": {
+        "interval": "1d",
+        "title": "% Completed CHW Registrations",
+        "created_at": "2015-02-05T07:06:51Z",
+        "nulls": "omit",
+        "updated_at": "2015-03-18T13:18:27.577Z",
+        "data": [
+            16
+        ],
+        "data_from": "-30d",
+        "type_of": "last"
+    }
+},
+{
+    "pk": 16,
+    "model": "controlinterface.widget",
+    "fields": {
+        "interval": "1d",
+        "title": "% Completed Public Registrations",
+        "created_at": "2015-02-05T07:07:20Z",
+        "nulls": "omit",
+        "updated_at": "2015-03-18T13:18:20.115Z",
+        "data": [
+            17
+        ],
+        "data_from": "-30d",
+        "type_of": "last"
+    }
+},
+{
+    "pk": 17,
+    "model": "controlinterface.widget",
+    "fields": {
+        "interval": "1d",
+        "title": "Total Subscriptions",
+        "created_at": "2015-03-17T11:49:26Z",
+        "nulls": "omit",
+        "updated_at": "2015-03-18T13:18:13.178Z",
+        "data": [
+            18
+        ],
+        "data_from": "-30d",
+        "type_of": "last"
+    }
+},
+{
+    "pk": 18,
+    "model": "controlinterface.widget",
+    "fields": {
+        "interval": "1d",
+        "title": "Baby SMS Trigger vs Automatic Transition",
+        "created_at": "2015-03-17T12:07:44Z",
+        "nulls": "omit",
+        "updated_at": "2015-03-18T13:37:50.582Z",
+        "data": [
+            19,
+            20
+        ],
+        "data_from": "-30d",
+        "type_of": "pie"
+    }
+},
+{
+    "pk": 19,
+    "model": "controlinterface.widget",
+    "fields": {
+        "interval": "1d",
+        "title": "Subscribers per language",
+        "created_at": "2015-03-17T12:21:38Z",
+        "nulls": "omit",
+        "updated_at": "2015-03-18T13:17:46.496Z",
+        "data": [
+            21,
+            22,
+            23,
+            24,
+            25,
+            26
+        ],
+        "data_from": "-30d",
+        "type_of": "pie"
+    }
+},
+{
+    "pk": 20,
+    "model": "controlinterface.widget",
+    "fields": {
+        "interval": "1d",
+        "title": "% of Opt Outs (total)",
+        "created_at": "2015-03-17T12:57:37Z",
+        "nulls": "omit",
+        "updated_at": "2015-03-18T13:17:29.868Z",
+        "data": [
+            27
+        ],
+        "data_from": "-30d",
+        "type_of": "last"
+    }
+},
+{
+    "pk": 21,
+    "model": "controlinterface.widget",
+    "fields": {
+        "interval": "1d",
+        "title": "% of Opt Outs (non loss)",
+        "created_at": "2015-03-17T12:59:06Z",
+        "nulls": "omit",
+        "updated_at": "2015-03-18T13:17:20.190Z",
+        "data": [
+            28
+        ],
+        "data_from": "-30d",
+        "type_of": "last"
+    }
+},
+{
+    "pk": 22,
+    "model": "controlinterface.widget",
+    "fields": {
+        "interval": "1d",
+        "title": "% of Loss Opt Outs who chose to get messages",
+        "created_at": "2015-03-17T13:07:04Z",
+        "nulls": "omit",
+        "updated_at": "2015-03-18T13:17:10.273Z",
+        "data": [
+            29
+        ],
+        "data_from": "-30d",
+        "type_of": "last"
+    }
+},
+{
+    "pk": 23,
+    "model": "controlinterface.widget",
+    "fields": {
+        "interval": "1d",
+        "title": "Opt Outs per type",
+        "created_at": "2015-03-17T13:16:14Z",
+        "nulls": "omit",
+        "updated_at": "2015-03-18T13:16:54.332Z",
+        "data": [
+            30,
+            31,
+            32,
+            33,
+            34,
+            35
+        ],
+        "data_from": "-30d",
+        "type_of": "pie"
+    }
+},
+{
+    "pk": 24,
+    "model": "controlinterface.widget",
+    "fields": {
+        "interval": "1d",
+        "title": "Opt Outs per subscription set",
+        "created_at": "2015-03-17T13:38:48Z",
+        "nulls": "omit",
+        "updated_at": "2015-03-18T13:16:42.563Z",
+        "data": [
+            36,
+            37,
+            38
+        ],
+        "data_from": "-30d",
+        "type_of": "pie"
+    }
+},
+{
+    "pk": 25,
+    "model": "controlinterface.widget",
+    "fields": {
+        "interval": "1d",
+        "title": "CHW to clinic conversion rate",
+        "created_at": "2015-03-17T13:41:47Z",
+        "nulls": "omit",
+        "updated_at": "2015-03-18T13:16:11.640Z",
+        "data": [
+            39
+        ],
+        "data_from": "-30d",
+        "type_of": "last"
+    }
+},
+{
+    "pk": 26,
+    "model": "controlinterface.widget",
+    "fields": {
+        "interval": "1d",
+        "title": "Public to clinic conversion rate",
+        "created_at": "2015-03-17T13:42:11Z",
+        "nulls": "omit",
+        "updated_at": "2015-03-18T13:15:42.184Z",
+        "data": [
+            40
+        ],
+        "data_from": "-30d",
+        "type_of": "last"
+    }
+},
+{
+    "pk": 27,
+    "model": "controlinterface.widget",
+    "fields": {
+        "interval": "1d",
+        "title": "Total Service Rating Users",
+        "created_at": "2015-03-17T13:54:33Z",
+        "nulls": "omit",
+        "updated_at": "2015-03-18T12:15:21.181Z",
+        "data": [
+            41
+        ],
+        "data_from": "-30d",
+        "type_of": "last"
+    }
+},
+{
+    "pk": 29,
+    "model": "controlinterface.widget",
+    "fields": {
+        "interval": "1d",
+        "title": "% Completed Service Ratings",
+        "created_at": "2015-03-17T14:14:56Z",
+        "nulls": "omit",
+        "updated_at": "2015-03-18T12:15:36.759Z",
+        "data": [
+            43
+        ],
+        "data_from": "-30d",
+        "type_of": "last"
+    }
+},
+{
+    "pk": 30,
+    "model": "controlinterface.widget",
+    "fields": {
+        "interval": "1d",
+        "title": "Avg number of sessions to complete rating",
+        "created_at": "2015-03-17T14:24:13Z",
+        "nulls": "omit",
+        "updated_at": "2015-03-18T12:15:48.420Z",
+        "data": [
+            44
+        ],
+        "data_from": "-30d",
+        "type_of": "last"
+    }
+},
+{
+    "pk": 31,
+    "model": "controlinterface.widget",
+    "fields": {
+        "interval": "1d",
+        "title": "No of answers per service rating question",
+        "created_at": "2015-03-17T14:31:39Z",
+        "nulls": "omit",
+        "updated_at": "2015-03-18T12:17:15.351Z",
+        "data": [
+            45,
+            46,
+            47,
+            48,
+            49
+        ],
+        "data_from": "-30d",
+        "type_of": "lines"
+    }
+},
+{
+    "pk": 32,
+    "model": "controlinterface.widget",
+    "fields": {
+        "interval": "1d",
+        "title": "Subscribers Per Message Set (Active)",
+        "created_at": "2015-03-18T08:59:09.722Z",
+        "nulls": "omit",
+        "updated_at": "2015-03-18T08:59:09.722Z",
+        "data": [
+            50,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59
+        ],
+        "data_from": "-30d",
+        "type_of": "pie"
+    }
+},
+{
+    "pk": 33,
+    "model": "controlinterface.widget",
+    "fields": {
+        "interval": "30d",
+        "title": "Number of FAQ SMS Sent (Year)",
+        "created_at": "2015-03-18T10:43:02.697Z",
+        "nulls": "omit",
+        "updated_at": "2015-03-18T10:43:02.697Z",
+        "data": [
+            60
+        ],
+        "data_from": "-365d",
+        "type_of": "last"
+    }
+},
+{
+    "pk": 34,
+    "model": "controlinterface.widget",
+    "fields": {
+        "interval": "1d",
+        "title": "FAQ Searches per Category",
+        "created_at": "2015-03-18T11:05:57Z",
+        "nulls": "omit",
+        "updated_at": "2015-03-18T11:17:48.769Z",
+        "data": [
+            61,
+            62,
+            63,
+            64,
+            65,
+            66
+        ],
+        "data_from": "-365d",
+        "type_of": "pie"
+    }
+},
+{
+    "pk": 35,
+    "model": "controlinterface.widget",
+    "fields": {
+        "interval": "1d",
+        "title": "Subscriptions (Active)",
+        "created_at": "2015-03-18T12:19:38.413Z",
+        "nulls": "omit",
+        "updated_at": "2015-03-18T12:19:38.413Z",
+        "data": [
+            67
+        ],
+        "data_from": "-30d",
+        "type_of": "last"
+    }
+},
+{
+    "pk": 36,
+    "model": "controlinterface.widget",
+    "fields": {
+        "interval": "1d",
+        "title": "Subscriptions (All Time)",
+        "created_at": "2015-03-18T12:20:02Z",
+        "nulls": "omit",
+        "updated_at": "2015-03-24T11:38:31.444Z",
+        "data": [
+            68
+        ],
+        "data_from": "-30d",
+        "type_of": "last"
+    }
+},
+{
+    "pk": 37,
+    "model": "controlinterface.widget",
+    "fields": {
+        "interval": "1d",
+        "title": "No of drop offs per question - Clinic",
+        "created_at": "2015-03-18T12:36:09Z",
+        "nulls": "omit",
+        "updated_at": "2015-03-18T12:51:46.598Z",
+        "data": [
+            70,
+            71,
+            72,
+            73,
+            74,
+            76
+        ],
+        "data_from": "-365d",
+        "type_of": "lines"
+    }
+},
+{
+    "pk": 38,
+    "model": "controlinterface.widget",
+    "fields": {
+        "interval": "1d",
+        "title": "Subscriptions per source",
+        "created_at": "2015-03-18T13:01:01.704Z",
+        "nulls": "omit",
+        "updated_at": "2015-03-18T13:01:01.704Z",
+        "data": [
+            10,
+            11,
+            12
+        ],
+        "data_from": "-30d",
+        "type_of": "pie"
+    }
+},
+{
+    "pk": 39,
+    "model": "controlinterface.widget",
+    "fields": {
+        "interval": "1d",
+        "title": "Users Per Line",
+        "created_at": "2015-03-18T13:17:50Z",
+        "nulls": "omit",
+        "updated_at": "2015-03-18T13:19:02.203Z",
+        "data": [
+            1,
+            2,
+            3
+        ],
+        "data_from": "-30d",
+        "type_of": "lines"
+    }
+},
+{
+    "pk": 40,
+    "model": "controlinterface.widget",
+    "fields": {
+        "interval": "1d",
+        "title": "Number of Subscription SMSs Sent (Month)",
+        "created_at": "2015-03-18T13:30:49Z",
+        "nulls": "omit",
+        "updated_at": "2015-03-24T11:54:47.618Z",
+        "data": [
+            81
+        ],
+        "data_from": "-30d",
+        "type_of": "bars"
+    }
+},
+{
+    "pk": 41,
+    "model": "controlinterface.widget",
+    "fields": {
+        "interval": "1d",
+        "title": "Subscriptions per Pregnancy Message Set (Active)",
+        "created_at": "2015-03-18T13:34:48Z",
+        "nulls": "omit",
+        "updated_at": "2015-03-18T14:34:02.756Z",
+        "data": [
+            54,
+            56,
+            59
+        ],
+        "data_from": "-30d",
+        "type_of": "pie"
+    }
+},
+{
+    "pk": 42,
+    "model": "controlinterface.widget",
+    "fields": {
+        "interval": "1d",
+        "title": "Subscriptions per Birth Message Set (Active)",
+        "created_at": "2015-03-18T13:35:23Z",
+        "nulls": "omit",
+        "updated_at": "2015-03-18T14:36:07.799Z",
+        "data": [
+            57,
+            58
+        ],
+        "data_from": "-30d",
+        "type_of": "pie"
+    }
+},
+{
+    "pk": 43,
+    "model": "controlinterface.widget",
+    "fields": {
+        "interval": "1d",
+        "title": "Subscriptions per Pregnancy Message Set (All time)",
+        "created_at": "2015-03-18T14:35:33.656Z",
+        "nulls": "omit",
+        "updated_at": "2015-03-18T14:35:33.656Z",
+        "data": [
+            92,
+            94,
+            97
+        ],
+        "data_from": "-30d",
+        "type_of": "pie"
+    }
+},
+{
+    "pk": 44,
+    "model": "controlinterface.widget",
+    "fields": {
+        "interval": "1d",
+        "title": "Subscriptions per Birth Message Set (All time)",
+        "created_at": "2015-03-18T14:36:38.870Z",
+        "nulls": "omit",
+        "updated_at": "2015-03-18T14:36:38.870Z",
+        "data": [
+            95,
+            96
+        ],
+        "data_from": "-30d",
+        "type_of": "pie"
+    }
+},
+{
+    "pk": 45,
+    "model": "controlinterface.widget",
+    "fields": {
+        "interval": "1d",
+        "title": "Subscribers Per Message Set (All Time)",
+        "created_at": "2015-03-19T13:37:12.894Z",
+        "nulls": "omit",
+        "updated_at": "2015-03-19T13:37:12.894Z",
+        "data": [
+            88,
+            89,
+            90,
+            91,
+            92,
+            93,
+            94,
+            95,
+            96,
+            97
+        ],
+        "data_from": "-30d",
+        "type_of": "pie"
+    }
+},
+{
+    "pk": 1,
+    "model": "controlinterface.dashboard",
+    "fields": {
+        "updated_at": "2015-02-04T12:15:08.095Z",
+        "widgets": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+        ],
+        "created_at": "2014-10-24T10:52:10Z",
+        "name": "Internal Summary",
+        "dashboard_type": "private"
+    }
+},
+{
+    "pk": 2,
+    "model": "controlinterface.dashboard",
+    "fields": {
+        "updated_at": "2015-03-19T14:59:15.551Z",
+        "widgets": [
+            5,
+            6,
+            9,
+            10,
+            21,
+            35,
+            38,
+            36
+        ],
+        "created_at": "2014-10-24T10:52:28Z",
+        "name": "Summary",
+        "dashboard_type": "public"
+    }
+},
+{
+    "pk": 3,
+    "model": "controlinterface.dashboard",
+    "fields": {
+        "updated_at": "2015-03-22T14:39:34.295Z",
+        "widgets": [
+            18
+        ],
+        "created_at": "2015-02-04T16:01:44Z",
+        "name": "All Widgets",
+        "dashboard_type": "private"
+    }
+},
+{
+    "pk": 4,
+    "model": "controlinterface.dashboard",
+    "fields": {
+        "updated_at": "2015-03-19T13:37:48.769Z",
+        "widgets": [
+            7,
+            11,
+            14,
+            15,
+            16,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            32,
+            35,
+            41,
+            42,
+            43,
+            44,
+            45,
+            36,
+            40
+        ],
+        "created_at": "2015-02-13T14:23:56Z",
+        "name": "Subscriptions",
+        "dashboard_type": "public"
+    }
+},
+{
+    "pk": 5,
+    "model": "controlinterface.dashboard",
+    "fields": {
+        "updated_at": "2015-03-18T13:18:28.258Z",
+        "widgets": [
+            5,
+            6,
+            39
+        ],
+        "created_at": "2015-02-13T14:24:25Z",
+        "name": "Users",
+        "dashboard_type": "public"
+    }
+},
+{
+    "pk": 6,
+    "model": "controlinterface.dashboard",
+    "fields": {
+        "updated_at": "2015-03-18T12:11:33.090Z",
+        "widgets": [
+            9,
+            27,
+            29,
+            30,
+            31
+        ],
+        "created_at": "2015-02-13T14:24:52Z",
+        "name": "Service Rating",
+        "dashboard_type": "public"
+    }
+},
+{
+    "pk": 7,
+    "model": "controlinterface.dashboard",
+    "fields": {
+        "updated_at": "2015-03-18T11:22:59.632Z",
+        "widgets": [
+            33,
+            34,
+            12
+        ],
+        "created_at": "2015-02-13T14:25:12Z",
+        "name": "FAQ",
+        "dashboard_type": "public"
+    }
+},
+{
+    "pk": 8,
+    "model": "controlinterface.dashboard",
+    "fields": {
+        "updated_at": "2015-03-18T10:36:37.466Z",
+        "widgets": [
+            10
+        ],
+        "created_at": "2015-02-13T14:25:24Z",
+        "name": "Helpdesk",
+        "dashboard_type": "public"
+    }
+},
+{
+    "pk": 9,
+    "model": "controlinterface.dashboard",
+    "fields": {
+        "updated_at": "2015-03-18T12:37:47.491Z",
+        "widgets": [
+            14,
+            15,
+            16,
+            37
+        ],
+        "created_at": "2015-02-13T14:25:49Z",
+        "name": "Private",
+        "dashboard_type": "private"
+    }
+}
+]
