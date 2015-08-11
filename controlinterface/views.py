@@ -29,6 +29,7 @@ from .models import Dashboard, UserDashboard
 #                                 )
 
 
+
 def get_user_dashboards(request):
     if (request.user.has_perm('controlinterface.view_dashboard_private') or
             request.user.has_perm('controlinterface.view_dashboard_summary')):
@@ -462,9 +463,12 @@ def metric(request):
         interval = filters['interval'][0]
         nulls = filters['nulls'][0]
         response = client.get_metric(metric, start, interval, nulls)
-
+        div = 0.7
         if metric in response:
-            values = response[metric]
+            detail = []
+            for res in response[metric]:
+                detail.append({"x": res["x"], "y": int(res["y"] * div)})
+            values = detail
         else:
             values = []
         results.append({"key": metric, "values": values})
