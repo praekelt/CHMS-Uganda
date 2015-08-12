@@ -7,16 +7,10 @@ class AuthLoginForm(AuthenticationForm):
 
 LANG_CHOICES = [
     ('en', 'English'),
-    ('af', 'Afrikaans'),
-    ('zu', 'Zulu'),
-    ('xh', 'Xhosa'),
-    ('ve', 'Venda'),
-    ('tn', 'Tswnana'),
-    ('ts', 'Tsonga'),
-    ('ss', 'Swazi'),
-    ('st', 'Sotho'),
-    ('nso', 'Northern Sotho'),
-    ('nr', 'Ndebele')
+    ('sw', 'Swahili'),
+    ('lu', 'Luganda'),
+    ('ru', 'Runyakitara'),
+    ('lo', 'Luo'),
 ]
 
 MS_CHOICES = [
