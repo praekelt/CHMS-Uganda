@@ -11,7 +11,7 @@
       <h1 class="page-header">Service Ratings</h1>
     </div>
     <div class="col-sm-3 col-md-5">
-      <a href="/controlinterface/servicerating/download/"><button type="button" class="btn btn-default btn-md btn-header"><span class="glyphicon glyphicon-cloud-download"></span> Download Service Ratings</button></a>
+      <a href="#"><button type="button" class="btn btn-default btn-md btn-contrast"><span class="glyphicon glyphicon-cloud-download"></span> Download Service Ratings</button></a>
     </div>
     <div class="col-sm-3 col-md-3">
       <div class="input-group">
@@ -27,7 +27,7 @@
     <div class="col-md-6"><div id="national_satisfaction"></div></div>
     <div class="col-md-6"><div id="national_waiting"></div></div>
 
-  </div> 
+  </div>
    <script src="{% static "controlinterface/js/d3.v3.min.js" %}"></script>
    <script src="{% static "controlinterface/js/c3.0.3.0.min.js" %}"></script>
  <script type="text/javascript">
@@ -37,7 +37,7 @@
           x: 'x',
           columns: [
             ['x', 'Q1 Friendliness', 'Q2 Waiting Times Feel', 'Q4 Cleanliness', 'Q5 Privacy'],
-            ['National Average', {{ averages.question_1_friendliness }}, {{ averages.question_2_waiting_times_feel }}, {{ averages.question_4_cleanliness }}, {{ averages.question_5_privacy }}]
+            ['National Average', 2.6, 2.1, 2.5, 2.5]
           ],
           type: 'bar'
         },
@@ -63,7 +63,7 @@
           x: 'x',
           columns: [
             ['x', 'Less Than an Hour', 'Between 1 and 3 Hours', 'More Than 4 Hours', 'All Day'],
-            ['National Average Waiting Times %', {{ waiting_times.less_than_an_hour }}, {{  waiting_times.between_1_and_3_hours }}, {{ waiting_times.more_than_4_hours }}, {{ waiting_times.all_day }}]
+            ['National Average Waiting Times %', 60.0, 20.0, 15.0, 5.0]
           ],
           type: 'bar'
         },
