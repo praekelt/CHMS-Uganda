@@ -30,3 +30,8 @@ class MessageFindForm(forms.Form):
     message_set = forms.ChoiceField(choices=MS_CHOICES)
     sequence_number = forms.IntegerField(min_value=1)
     lang = forms.ChoiceField(choices=LANG_CHOICES)
+
+
+class SubscriptionFindForm(forms.Form):
+    subaction = forms.CharField(widget=forms.HiddenInput(), initial="find")
+    msisdn = forms.CharField(label="Cellphone Number")

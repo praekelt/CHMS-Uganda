@@ -14,7 +14,7 @@ from go_http.metrics import MetricsApiClient
 from django.conf import settings
 
 from .models import Dashboard, UserDashboard
-from .forms import MessageFindForm
+from .forms import MessageFindForm, SubscriptionFindForm
 # from subscription.models import (Message,
 #                                  Subscription,
 #                                  MessageSet)
@@ -105,6 +105,24 @@ def message_edit(request):
         context.update(csrf(request))
 
         return render_to_response("controlinterface/messages.html",
+                                  context,
+                                  context_instance=RequestContext(request))
+    else:
+        return render(request,
+                      'controlinterface/index_nodash.html')
+
+
+@login_required(login_url='/controlinterface/login/')
+def subscription_edit(request):
+    if (request.user.has_perm('controlinterface.view_dashboard_private') or
+            request.user.has_perm('controlinterface.view_dashboard_summary')):
+
+        context = get_user_dashboards(request)
+        form = SubscriptionFindForm()
+        context.update({"form": form})
+        context.update(csrf(request))
+
+        return render_to_response("controlinterface/subscription.html",
                                   context,
                                   context_instance=RequestContext(request))
     else:
