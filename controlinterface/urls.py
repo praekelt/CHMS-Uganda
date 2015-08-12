@@ -15,8 +15,8 @@ urlpatterns = patterns(
         name='subscription_edit'),
     # url(r'^controlinterface/servicerating/download/',
     #     views.servicerating_report, name='servicerating_report'),
-    # url(r'^controlinterface/servicerating/',
-    #     views.servicerating, name='servicerating'),
+    url(r'^controlinterface/servicerating/',
+        views.servicerating, name='servicerating'),
     url(r'^controlinterface/login/$',
         'django.contrib.auth.views.login',
         {
