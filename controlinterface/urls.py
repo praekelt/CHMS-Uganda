@@ -7,8 +7,8 @@ urlpatterns = patterns(
     # Setting the urlpatterns to hook into the api urls
     url(r'^api/v1/controlinterface/metric/', views.metric, name='metric'),
     url(r'^controlinterface/$', views.index, name='index'),
-    # url(r'^controlinterface/message/$', views.message_edit,
-    #     name='message_edit'),
+    url(r'^controlinterface/message/$', views.message_edit,
+        name='message_edit'),
     url(r'^controlinterface/dashboard/(?P<dashboard_id>\d+)/', views.dashboard,
         name='dashboard'),
     # url(r'^controlinterface/subscription/$', views.subscription_edit,

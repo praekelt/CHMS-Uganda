@@ -14,6 +14,7 @@ from go_http.metrics import MetricsApiClient
 from django.conf import settings
 
 from .models import Dashboard, UserDashboard
+from .forms import MessageFindForm
 # from subscription.models import (Message,
 #                                  Subscription,
 #                                  MessageSet)
@@ -27,7 +28,6 @@ from .models import Dashboard, UserDashboard
 #                                 SubscriptionCancelForm,
 #                                 SubscriptionBabyForm,
 #                                 )
-
 
 
 def get_user_dashboards(request):
@@ -93,6 +93,23 @@ def dashboard(request, dashboard_id):
         return render(request,
                       'controlinterface/index_nodash.html')
 
+
+@login_required(login_url='/controlinterface/login/')
+def message_edit(request):
+    if (request.user.has_perm('controlinterface.view_dashboard_private') or
+            request.user.has_perm('controlinterface.view_dashboard_summary')):
+
+        context = get_user_dashboards(request)
+        form = MessageFindForm()
+        context.update({"form": form})
+        context.update(csrf(request))
+
+        return render_to_response("controlinterface/messages.html",
+                                  context,
+                                  context_instance=RequestContext(request))
+    else:
+        return render(request,
+                      'controlinterface/index_nodash.html')
 
 # @login_required(login_url='/controlinterface/login/')
 # def message_edit(request):
@@ -409,7 +426,7 @@ def dashboard(request, dashboard_id):
 #             'waiting_times': waiting_times
 #         })
 
-#         return render(request, 'controlinterface/serviceratings.html', context)
+# return render(request, 'controlinterface/serviceratings.html', context)
 
 
 # @login_required(login_url='/controlinterface/login/')
@@ -435,7 +452,7 @@ def dashboard(request, dashboard_id):
 #                          "Created At", "Updated At", "Clinic Code"])
 #         for obj in qs:
 #             writer.writerow([obj.id, obj.contact_id, obj.key, obj.value,
-#                              obj.created_at, obj.updated_at, obj.clinic_code])
+# obj.created_at, obj.updated_at, obj.clinic_code])
 
 #         return response
 

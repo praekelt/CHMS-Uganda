@@ -4,6 +4,7 @@
 
 
 {% block content %}
+ <br>
   <div class="row">
     <div class="col-sm-3 col-md-4">
       <h1 class="page-header">Messages</h1>
@@ -40,7 +41,7 @@
           {% csrf_token %}
           <h3>Find a message to edit</h3>
           {{ form|bootstrap }}
-          <input type="submit" class="btn btn-primary" value="Find" />
+          <input type="submit" class="btn btn-contrast" value="Find" />
           </form>
         {% endif %}
 
