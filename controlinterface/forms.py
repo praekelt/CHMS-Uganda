@@ -7,10 +7,8 @@ class AuthLoginForm(AuthenticationForm):
 
 LANG_CHOICES = [
     ('en', 'English'),
-    ('sw', 'Swahili'),
-    ('lu', 'Luganda'),
-    ('ru', 'Runyakitara'),
-    ('lo', 'Luo'),
+    ('lu', 'Lusoga'),
+    ('lu', 'Rukiga'),
 ]
 
 MS_CHOICES = [
